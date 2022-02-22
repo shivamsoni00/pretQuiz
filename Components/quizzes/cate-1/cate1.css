@@ -1,0 +1,41 @@
+@import url(../../../theme/theme.css);
+@import url(../../header/header.css);
+@import url(../../category/category.css);
+
+
+
+.cat1-container{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--default-color);
+}
+
+header{
+    border-bottom: 1px solid var(--primary-color);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.book{
+    font-size: var(--cate-title-s);
+    font-weight: var(--cate-title-w);
+    color: var(--cate-txt-color);
+}
+
+.cat1-btn{
+    background-color: transparent;
+    width: 14rem;
+    height: 2.5rem;
+    border: 1.5px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: var(--cate-txt-s);
+    font-weight:var(--cate-txt-w);
+    text-decoration: none;
+    text-align: center;
+}
+
+.cat1-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--default-color); 
+}
