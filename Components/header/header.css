@@ -6,24 +6,23 @@ body {
 }
 
 .mini-header {
-    width: 100vw;
+	width: 100vw;
 	display: flex;
 	flex-direction: row;
 	height: auto;
 	background-color: var(--header-bg);
-    padding: 1rem;
-    position: sticky;
+	padding: 1rem;
+	position: sticky;
 }
 
 .mini-icon-container {
-	flex-basis: 15%; 
+	flex-basis: 15%;
 	display: flex;
 }
 
 .img-link {
 	margin: 0 auto;
 }
-
 
 .icon {
 	width: 3rem;
@@ -42,9 +41,7 @@ body {
 	right: 5rem;
 }
 
-.social-icons{  
+.social-icons {
 	max-width: 2rem;
 	max-height: 2rem;
-} 
-
-
+}
