@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://amazing-kowalevski-11b361.netlify.app/root.css">
+    <link rel="stylesheet" href="./q0.css" />
+    <title>Questions</title>
+</head>
+
+<body>
+    <div class="question-container">
+        <div class="q-title">
+            <h2 class="que-title">
+                Quiz Title
+            </h2>
+        </div>
+        <div class="q-socre">
+            <p class="socre-que0">
+                Question: 1/5
+            </p>
+            <p class="score-que1">
+                Score: 0/25
+            </p>
+        </div>
+        <div class="q-des">
+            <p class="des">
+                Cat ipsum dolor sit amet,
+                destroy dog ask for petting. Gimme attention?
+            </p>
+        </div>
+        <div class="options">
+            <p class="option" onclick="changes()">
+                Option A
+            </p>
+
+            <p class="option" onclick="changes()">
+                Option B
+            </p>
+            <p class="option" onclick="changes()">
+                Option C
+            </p>
+            <p class="option" onclick="changes()">
+                Option D
+            </p>
+        </div>
+        <div class="q-btn">
+            <a href="../../category/category.html" class="btn outline-secondary ques-btn0">Back</a>
+            <a href="../Q1/q1.html" class="btn outline-secondary ques-btn1">Next</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function changes() {
+            var options = document.querySelectorAll('.option')
+            for (let i = 0; i < options.length; i++) {
+                options[i].style.background = "black";
+                options[i].style.color = "white";
+            }
+        }
+    </script>
+</body>
+
+</html>
