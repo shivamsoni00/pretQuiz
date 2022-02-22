@@ -1,0 +1,43 @@
+:root{
+
+    /* global */
+
+--default-color:#222;
+--primary-color:#faa205;
+--secondary-color:white;
+    /* header */
+    --header-bg:var(--default-color);
+    /* header end */
+
+    /* category  */
+    --cate-title-s:1.3rem;
+    --cate-title-w:580;
+
+    --cate-txt-s:1.1rem;
+    --cate-txt-w:540;
+
+    --cate-txt-color:var(--primary-color);
+
+    /* category end */
+
+    /* rule */
+
+    --rule-title-s:1.3rem;
+    --rule-title-w:580;
+
+    --rule-txt-s:1.1rem;
+    --rule-txt-w:540;
+
+    --rule-txt-color:var(--primary-color);
+
+    /* rule end */
+
+    /* questions and answer */
+
+    
+
+
+    /* answer end */
+
+    /* global */
+}

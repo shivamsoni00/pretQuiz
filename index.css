@@ -1,0 +1,76 @@
+@import url(./theme/theme.css);
+@import url(./Components/header/header.css);
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.land-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    width: 100vw;
+    height: 100vh;
+    background: var(--default-color);
+    overflow-x: hidden;
+}
+
+header{
+    border-bottom: 1px solid var(--primary-color);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.land-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    height: auto;
+    background: var(--default-color);
+
+}
+
+.land-svg{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.img-land{
+    max-width: 100%;
+    max-height: 75vh;  
+}
+
+.pret{
+    color: var(--rule-txt-color);
+    text-align: center; 
+}
+
+.p-description{
+    font-size: var(--rule-txt-s);
+    font-weight: var(--rule-txt-w);
+    color: var(--rule-txt-color);
+    text-align: center; 
+}
+
+.pret-btn{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.land-btn{
+    font-size: var(--rule-txt-s);
+    font-weight: var(--rule-txt-w);
+    color: var(--rule-txt-color);
+    background-color: transparent;
+    width: 6rem;
+    height: 2.5rem;
+    border: 1.5px solid var(--primary-color);
+    text-decoration: none;
+}
+
+.land-btn:hover{
+background-color: var(--primary-color);
+color: var(--default-color);
+}
